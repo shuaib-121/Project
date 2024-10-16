@@ -8,16 +8,6 @@ module.exports = {
       lg: '1200px',
       xl: '2000px',
     },
-    keyframes: {
-      from: {
-        opacity: 0,
-        scale: 0.5,
-      },
-      to: {
-        opacity: 1,
-        scale: 1,
-      },
-    },
   },
   plugins: [],
 }

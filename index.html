@@ -9,18 +9,18 @@
   <link rel="stylesheet" href="input.css">
   <script src="./js/script.js" defer></script>
 </head>
-<body>
+<body class="bg-gray-100">
   <!-- Hero Section -->
   <section id="hero">
     <!-- Hero Container -->
-    <div class="container max-w-6xl mx-auto px-6 py-12">
+    <div class="container mx-auto py-12">
     <!-- Menu/Logo Container -->
      <nav class="flex items-center justify-between md:justify-normal
-      bg-white p-7 rounded-full md:gap-20  text-black">
+      bg-white p-6 rounded-full md:gap-20  text-black">
        <!-- Logo -->
        <img src="./img/logo.png" alt="" />
        <!-- Menu -->
-        <div class="hidden md:flex md:gap-4 md:text-sm lg:gap-10">
+        <div class="hidden md:flex md:gap-4 md:text-sm font-semibold lg:gap-10">
       <a href="#Home" class="text-pink-500">Home</a>
       <a href="#About" class="hover:text-pink-500">About</a>
       <a href="#WorkProcess" class="hover:text-pink-500">Work Process</a>
@@ -47,7 +47,7 @@
       <div
       id="menu"
       class="absolute top-0 bottom-0 left-0 hidden flex-col self-end w-full min-h-screen
-       py-1 pt-40 pl-12 space-y-3 text-lg text-black uppercase bg-white"
+       py-1 pt-40 pl-12 space-y-3 text-lg text-black uppercase bg-white font-semibold"
     >
       <a href="#" class="text-pink-500">Home</a>
       <a href="#" class="hover:text-pink-500">About</a>
@@ -65,7 +65,7 @@
         We provide the best <strong>strategy</strong>
         to grow up your <strong>business</strong>
       </div>
-      <p class="max-w-md text-sm text-white text-center">
+      <p class="md:max-w-md max-w-sm text-sm text-white text-center">
         Softy Pinko is a professional Bootstrap 4.0 theme designed by
          Template Mo for your company at absolutely free of charge
       </p>
@@ -80,7 +80,7 @@
        <!-- Cards -->
        <div class="hidden md:flex gap-7 flex-row">
         <!-- Card 1 -->
-        <div class="bg-white rounded-2xl shadow-2xl relative px-5 pb-5 pt-5">
+        <div class="bg-[aliceblue] rounded-2xl shadow-2xl relative px-5 pb-5 pt-5">
        <div class="absolute bg-[blueviolet] left-[35%] p-5 rounded-full duration-300 
        cursor-pointer hover:bg-red-400">
        <img src="./img/featured-item-01.png">
@@ -94,7 +94,7 @@
        </p>
      </div>
      </div>
-     <div class="bg-white rounded-2xl shadow-2xl relative px-5 pb-7 pt-6">
+     <div class="bg-[aliceblue] rounded-2xl shadow-2xl relative px-5 pb-7 pt-6">
        <div class="absolute bg-[blueviolet] left-[35%] p-5 rounded-full duration-300 
        cursor-pointer hover:bg-red-400">
        <img src="./img/featured-item-01.png">
@@ -108,7 +108,7 @@
        </p>
      </div>
    </div>
-   <div class="bg-white rounded-2xl shadow-2xl relative px-5 pb-7 pt-6">
+   <div class="bg-[aliceblue] rounded-2xl shadow-2xl relative px-5 pb-7 pt-6">
        <div class="absolute bg-[blueviolet] left-[35%] p-5 rounded-full duration-300 
        cursor-pointer hover:bg-red-400">
        <img src="./img/featured-item-01.png">
@@ -130,9 +130,9 @@
     <!-- Cards -->
     <div class="md:hidden flex gap-7 flex-row justify-center flex-wrap">
       <!-- Card 1 -->
-      <div class="bg-white rounded-xl shadow-2xl relative pt-6">
-     <div class="absolute bg-[blueviolet] left-[35%] p-5 rounded-full duration-300 
-     cursor-pointer hover:bg-red-400">
+      <div class="bg-[aliceblue] rounded-3xl shadow-2xl relative pt-6">
+     <div class="absolute bg-violet-500 left-[35%] p-5 rounded-full duration-300 
+     cursor-pointer hover:bg-[#ff589e]">
      <img src="./img/featured-item-01.png">
    </div>
    <div class="pt-24 pb-5 flex flex-col gap-7 items-center">
@@ -145,9 +145,9 @@
    </div>
    </div>
    <!-- Card 2 -->
-   <div class="bg-white rounded-xl shadow-2xl relative pb-7 pt-6">
-     <div class="absolute bg-[blueviolet] left-[35%] p-5 rounded-full duration-300 
-     cursor-pointer hover:bg-red-400">
+   <div class="bg-[aliceblue] rounded-3xl shadow-2xl relative pb-7 pt-6">
+     <div class="absolute bg-violet-500 left-[35%] p-5 rounded-full duration-300 
+     cursor-pointer hover:bg-[#ff589e]">
      <img src="./img/featured-item-01.png">
    </div>
    <div class="pt-28 flex flex-col gap-7 items-center">
@@ -159,9 +159,9 @@
      </p>
    </div>
  </div>
- <div class="bg-white rounded-xl shadow-2xl relative pb-7 pt-6">
-     <div class="absolute bg-[blueviolet] left-[35%] p-5 rounded-full duration-300 
-     cursor-pointer hover:bg-red-400">
+ <div class="bg-[aliceblue] rounded-3xl shadow-2xl relative pb-7 pt-6">
+     <div class="absolute bg-violet-500 left-[35%] p-5 rounded-full duration-300 
+     cursor-pointer hover:bg-[#ff589e]">
      <img src="./img/featured-item-01.png">
    </div>
    <div class="pt-28 flex flex-col gap-7 items-center">
@@ -176,7 +176,7 @@
   </div>
    </section>
 
-
+ <!-- Left Item -->
    <section id="About">
     <div class="flex flex-col lg:justify-evenly md:justify-evenly lg:flex-row 
     md:flex-row lg:gap-0 md:gap-0 gap-7 pb-14 pt-24">
@@ -184,10 +184,10 @@
         <img src="./img/left-image.png" alt="">
       </div>
       <div class="mx-auto">
-        <h2 class="font-sans pt-7 text-2xl">
+        <h2 class="font-sans pt-7 text-2xl text-center">
           Let’s discuss about you project
         </h2>
-        <p class="text-sm pt-9 text-gray-400 max-w-md">
+        <p class="text-sm pt-9 text-gray-400 md:max-w-md max-w-sm">
           Nullam sit amet purus libero. Etiam ullamcorper nisl ut 
           augue blandit, at finibus leo efficitur. Nam gravida purus non sapien auctor,
            ut aliquam magna ullamcorper.
@@ -197,14 +197,14 @@
 
 
     <hr>
-
+    <!-- Right Item -->
     <div class="flex flex-col lg:justify-evenly md:justify-evenly lg:flex-row 
     md:flex-row lg:gap-0 md:gap-0 gap-7 pt-24">
       <div class="mx-auto">
-        <h2 class="font-sans pt-7 text-2xl">
+        <h2 class="font-sans pt-7 text-2xl text-center">
           We can help you to grow your business
         </h2>
-        <p class="text-sm pt-9 text-gray-400 max-w-md">
+        <p class="text-sm pt-9 text-gray-400 md:max-w-md max-w-sm">
           Aenean pretium, ipsum et porttitor auctor, metus 
           ipsum iaculis nisi, a bibendum lectus libero vitae urna. 
           Sed id leo eu dolor luctus congue sed eget ipsum. Nunc nec 
@@ -224,7 +224,7 @@
         <h2 class="text-white text-4xl ">
           Work Process
         </h2>
-        <p class="text-gray-200 text-center max-w-lg pt-7">
+        <p class="text-gray-200 text-center md:max-w-lg max-w-sm pt-7">
           Aenean nec tempor metus. Maecenas ligula dolor, commodo in imperdiet 
           interdum, vehicula ut ex. Donec ante diam.
         </p>
@@ -233,8 +233,8 @@
       <div class="flex md:gap-7 gap-10 justify-center mx-auto pt-24 flex-row flex-wrap">
         <!-- Menus 1 -->
         <div class="relative bg-white hover:translate-y-7 duration-200 cursor-pointer
-        flex flex-col items-center gap-7 md:px-10 md:p-5 px-6 py-1 rounded-3xl">
-          <div class="mx-auto pt-3">
+        flex flex-col items-center gap-7 px-10 p-5 rounded-3xl">
+          <div class="mx-auto">
             <img src="./img/work-process-item-01.png" 
             alt="" class="">
           </div>
@@ -242,15 +242,15 @@
             <h3 class="font-sans text-lg text-center">
               Get Ideas
             </h3>
-            <p class="text-gray-400 md:w-28 w-36 text-center">
+            <p class="text-gray-400 w-28 text-center">
               Godard pabst prism fam cliche
             </p>
           </div>
         </div>
         <!-- Menus 2 -->
         <div class="relative bg-white hover:translate-y-7 duration-200 cursor-pointer
-        flex flex-col items-center gap-7 md:px-10 md:p-5 px-6 py-3 rounded-3xl">
-          <div class="mx-auto pt-3">
+        flex flex-col items-center gap-7 px-10 p-5 rounded-3xl">
+          <div class="mx-auto">
             <img src="./img/work-process-item-01.png" 
             alt="" class="">
           </div>
@@ -258,15 +258,15 @@
             <h3 class="font-sans text-lg text-center">
               Sketch Up
             </h3>
-            <p class="text-gray-400 md:w-28 w-36 text-center">
+            <p class="text-gray-400 w-28 text-center">
               Godard pabst prism fam cliche
             </p>
           </div>
         </div>
         <!-- Menus 3 -->
         <div class="bg-white hover:translate-y-7 duration-200 cursor-pointer flex flex-col 
-        items-center gap-7 rounded-3xl md:px-10 md:p-5 px-6 py-3">
-          <div class="mx-auto pt-3">
+        items-center gap-7 rounded-3xl px-10 p-5">
+          <div class="mx-auto">
             <img src="./img/work-process-item-01.png" 
             alt="" class="">
           </div>
@@ -274,15 +274,15 @@
             <h3 class="font-sans text-lg text-center">
               Discuss
             </h3>
-            <p class="text-gray-400 md:w-28 w-36 text-center">
+            <p class="text-gray-400 w-28 text-center">
               Godard pabst prism fam cliche
             </p>
           </div>
         </div>
          <!-- Menus 4 -->
          <div class="bg-white hover:translate-y-7 duration-200 cursor-pointer flex flex-col 
-         items-center gap-7 rounded-3xl md:px-10 md:p-5 px-6 py-3">
-          <div class=" mx-auto pt-3">
+         items-center gap-7 rounded-3xl px-10 p-5">
+          <div class=" mx-auto">
             <img src="./img/work-process-item-01.png" 
             alt="" class="">
           </div>
@@ -290,15 +290,15 @@
             <h3 class="font-sans text-lg text-center">
               Revise
             </h3>
-            <p class="text-gray-400 md:w-28 w-36 text-center">
+            <p class="text-gray-400 w-28 text-center">
               Godard pabst prism fam cliche
             </p>
           </div>
         </div>
          <!-- Menus 5 -->
          <div class="relative bg-white hover:translate-y-7 duration-200 cursor-pointer
-         flex flex-col items-center gap-7 md:px-10 md:p-5 px-6 py-3 rounded-3xl">
-          <div class="mx-auto pt-3">
+         flex flex-col items-center gap-7 px-10 p-5 rounded-3xl">
+          <div class="mx-auto">
             <img src="./img/work-process-item-01.png" 
             alt="" class="">
           </div>
@@ -306,15 +306,15 @@
             <h3 class="font-sans text-lg text-center">
               Approve
             </h3>
-            <p class="text-gray-400 md:w-28 w-36 text-center">
+            <p class="text-gray-400 w-28 text-center">
               Godard pabst prism fam cliche
             </p>
           </div>
         </div>
          <!-- Menus 6 -->
          <div class="relative bg-white hover:translate-y-7 duration-200 cursor-pointer
-         flex flex-col items-center gap-7 md:px-10 md:p-5 px-6 py-3 rounded-3xl">
-          <div class="mx-auto pt-3">
+         flex flex-col items-center gap-7 px-10 p-5 rounded-3xl">
+          <div class="mx-auto">
             <img src="./img/work-process-item-01.png" 
             alt="" class="">
           </div>
@@ -322,7 +322,7 @@
             <h3 class="font-sans text-lg text-center">
               Launch
             </h3>
-            <p class="text-gray-400 md:w-28 w-36 text-center">
+            <p class="text-gray-400 w-28 text-center">
               Godard pabst prism fam cliche
             </p>
           </div>
@@ -338,7 +338,7 @@
         <h2 class="text-3xl text-center font-sans">
           What do they say?
         </h2>
-        <p class="text-gray-400 max-w-md text-center">
+        <p class="text-gray-400 md:max-w-md max-w-sm text-center">
           Donec tempus, sem non rutrum imperdiet, 
           lectus orci fringilla nulla, at accumsan elit eros a turpis. Ut sagittis lectus libero.
         </p>
@@ -346,7 +346,7 @@
       <!-- Boxess -->
       <div class="flex flex-col items-center gap-7 justify-center pt-14 md:flex-row">
         <!-- Box 1 -->
-        <div class="bg-white rounded-xl p-7 shadow-xl">
+        <div class="bg-[aliceblue] rounded-3xl p-7 shadow-2xl">
           <div class="flex flex-col items-center">
             <img src="./img/testimonial-icon.png" alt="">
             <p class="text-gray-400 max-w-sm pt-7">
@@ -363,7 +363,7 @@
           </div>
         </div>
         <!-- Box 2 -->
-        <div class="bg-white rounded-xl p-7 shadow-xl">
+        <div class="bg-[aliceblue] rounded-3xl p-7 shadow-2xl">
           <div class="flex flex-col items-center">
             <img src="./img/testimonial-icon.png" alt="">
             <p class="text-gray-400 max-w-sm pt-7">
@@ -380,7 +380,7 @@
           </div>
         </div>
         <!-- Box 3 -->
-        <div class="bg-white rounded-xl p-7 shadow-xl">
+        <div class="bg-[aliceblue] rounded-3xl p-7 shadow-2xl">
           <div class="flex flex-col items-center">
             <img src="./img/testimonial-icon.png" alt="">
             <p class="text-gray-400 max-w-sm pt-7">
@@ -633,16 +633,16 @@
           </div>
           <div class="flex flex-col gap-10 mx-auto container">
             <div class="flex flex-col lg:flex-row gap-7">
-              <div class="lg:max-w-[38%]  w-[450px]">
+              <div class="w-[330px]">
                 <input type="text" placeholder="Full Name" 
                 class="w-full py-3 pl-5 focus:outline-blue-400 rounded-full">
               </div>
-            <div class="lg:max-w-[38%] w-[450px]">
+            <div class="w-[330px]">
               <input type="email" placeholder="E-Mail Address" 
               class="w-full py-3 pl-5 focus:outline-blue-400 rounded-full">
             </div>
           </div>
-          <div class="lg:w-[80%] w-[450px]">
+          <div class="lg:w-[700px] w-[330px]">
             <input type="text" placeholder="Your Message" 
             class="w-full pl-5 pb-28 pt-7 focus:outline-blue-400 rounded-3xl">
           </div>
